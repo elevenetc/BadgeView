@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="BadgeView">
+		<attr name="badgeText" format="string"/>
+		<attr name="badgeBitmap" format="reference"/>
+		<attr name="badgeBackgroundColor" format="color"/>
+		<attr name="badgeTextColor" format="color"/>
+		<attr name="badgeTextSize" format="dimension"/>
+		<attr name="badgePadding" format="dimension"/>
+		<attr name="badgeAnimationDuration" format="integer"/>
+	</declare-styleable>
+</resources>
