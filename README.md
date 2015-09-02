@@ -1,5 +1,7 @@
 # BadgeView
 Badge view with animated effect which shows a bitmap or a text.
+
+![animation](docs/badgeview-spongebob.gif)
 ### Usage 
 ```XML
 <su.levenetc.android.badgeview.BadgeView
@@ -35,3 +37,5 @@ new BadgeView.AnimationSet(badgeView)
   .add("Im fine!", 1500)
   .play();
 ```
+### Licence
+http://www.apache.org/licenses/LICENSE-2.0
