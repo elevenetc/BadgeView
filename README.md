@@ -29,7 +29,7 @@ To show values sequentially use `setValues` method:
 Bitmap bitmapX;
 badgeView.setValues(0, 1, bitmapX, 3, "How are you?");
 ```
-To defaine partucular delay for each value use helper class `BadgeView.AnimationSet`:
+To define partucular delay for each value use helper class `BadgeView.AnimationSet`:
 ```Java
 new BadgeView.AnimationSet(badgeView)
   .add("Hi!", 1000)
