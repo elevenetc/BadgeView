@@ -37,5 +37,16 @@ new BadgeView.AnimationSet(badgeView)
   .add("Im fine!", 1500)
   .play();
 ```
+### Download
+```Groovy
+repositories {
+    maven { url "https://jitpack.io" }
+}
+//...
+dependencies {
+    //...
+    compile 'com.github.elevenetc:badgeview:v1.0.0'
+}
+```
 ### Licence
 http://www.apache.org/licenses/LICENSE-2.0
