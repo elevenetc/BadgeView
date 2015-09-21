@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:animateLayoutChanges="true"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".SampleActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <su.levenetc.android.badgeview.BadgeView
+            android:id="@+id/badge_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:badgeAnimationDuration="1000"
+            app:badgePadding="16dp"
+            app:badgeText="3"
+            app:badgeTextSize="32sp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/btns_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1"/>
+
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
